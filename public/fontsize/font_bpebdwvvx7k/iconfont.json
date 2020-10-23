@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "424663",
+      "name": "Shiyong",
+      "font_class": "shiyong",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "712236",
+      "name": "采购",
+      "font_class": "icon-cart",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "1031444",
+      "name": "genghuanyuming",
+      "font_class": "genghuanyuming",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1236890",
+      "name": "入库",
+      "font_class": "iconfontzhizuobiaozhunbduan15",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "5357391",
+      "name": "启用",
+      "font_class": "qiyong",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "12990708",
+      "name": "二维码-scan-块",
+      "font_class": "erweima-scan-kuai",
+      "unicode": "e8a6",
+      "unicode_decimal": 59558
+    }
+  ]
+}
