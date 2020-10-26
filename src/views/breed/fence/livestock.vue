@@ -109,24 +109,24 @@ export default {
                         },
                         dicUrl: "/api/mkx-farm/farm/getFarms"
                     },
-                    {
-                        label: "棚舍",
-                        prop: "sukkId",
-                        type: "select",
-                        dicFlag: false,
-                        props: {
-                            label: "name",
-                            value: "code"
-                        },
-                        dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
-                        rules: [
-                            {
-                                required: true,
-                                message: "请选择棚舍",
-                                trigger: "blur"
-                            }
-                        ]
-                    },
+                    // {
+                    //     label: "棚舍",
+                    //     prop: "sukkId",
+                    //     type: "select",
+                    //     dicFlag: false,
+                    //     props: {
+                    //         label: "name",
+                    //         value: "code"
+                    //     },
+                    //     dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
+                    //     rules: [
+                    //         {
+                    //             required: true,
+                    //             message: "请选择棚舍",
+                    //             trigger: "blur"
+                    //         }
+                    //     ]
+                    // },
                     {
                         label: "芯片号",
                         prop: "chipNo",

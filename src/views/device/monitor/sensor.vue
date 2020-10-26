@@ -87,24 +87,24 @@ export default {
                             }
                         ]
                     },
-                    {
-                        label: "所在棚舍",
-                        prop: "sukkId",
-                        type: "select",
-                        props: {
-                            label: "name",
-                            value: "code"
-                        },
-                        dicFlag: false,
-                        dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
-                        rules: [
-                            {
-                                required: false,
-                                message: "请选择所在棚舍",
-                                trigger: "blur"
-                            }
-                        ]
-                    },
+                    // {
+                    //     label: "所在棚舍",
+                    //     prop: "sukkId",
+                    //     type: "select",
+                    //     props: {
+                    //         label: "name",
+                    //         value: "code"
+                    //     },
+                    //     dicFlag: false,
+                    //     dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
+                    //     rules: [
+                    //         {
+                    //             required: false,
+                    //             message: "请选择所在棚舍",
+                    //             trigger: "blur"
+                    //         }
+                    //     ]
+                    // },
                     {
                         label: "设备名称",
                         prop: "deviceName",

@@ -137,18 +137,18 @@ export default {
                             }
                         ]
                     },
-                    {
-                        label: "原棚舍",
-                        prop: "srcSukkId",
-                        type: "select",
-                        props: {
-                            label: "name",
-                            value: "code"
-                        },
-                        dicFlag: false,
-                        dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
-                        display: false
-                    },
+                    // {
+                    //     label: "原棚舍",
+                    //     prop: "srcSukkId",
+                    //     type: "select",
+                    //     props: {
+                    //         label: "name",
+                    //         value: "code"
+                    //     },
+                    //     dicFlag: false,
+                    //     dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
+                    //     display: false
+                    // },
                     {
                         label: "新基地",
                         prop: "farmId",
@@ -161,18 +161,18 @@ export default {
                         dicUrl: "/api/mkx-farm/farm/getFarms",
                         editDisabled: true
                     },
-                    {
-                        label: "新棚舍",
-                        prop: "sukkId",
-                        type: "select",
-                        props: {
-                            label: "name",
-                            value: "code"
-                        },
-                        dicFlag: false,
-                        dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
-                        editDisabled: true
-                    },
+                    // {
+                    //     label: "新棚舍",
+                    //     prop: "sukkId",
+                    //     type: "select",
+                    //     props: {
+                    //         label: "name",
+                    //         value: "code"
+                    //     },
+                    //     dicFlag: false,
+                    //     dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
+                    //     editDisabled: true
+                    // },
                     {
                         label: "转栏原因",
                         prop: "reason",

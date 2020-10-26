@@ -12,9 +12,6 @@
         <span class="top-bar__item" v-if="showSearch">
             <top-search></top-search>
         </span>
-        <!-- <span class="top-bar__item">
-        <router-link to="/">{{$t('navbar.dashboard')}}</router-link>
-      </span> -->
     </div>
     <div class="top-bar__right">
         <!-- <el-tooltip v-if="showColor"
@@ -33,7 +30,8 @@
             </div>
         </el-tooltip>
         <el-tooltip effect="dark" content="驾驶舱" placement="bottom">
-            <img src="../../../../public/img/cockpit.png" alt="" class="rightimg" style="width:22px;height:22px;margin-right:14px" @click="tiaozhuang">
+            <!--  <img src="../../../../public/img/cockpit.png" alt="" class="rightimg" style="width:22px;height:22px;margin-right:14px" @click="tiaozhuang"> -->
+            <i class='iconfont icon-jiashicang' @click="tiaozhuang"></i>
         </el-tooltip>
         <div class="el-badge">
             <el-dropdown>
@@ -62,16 +60,17 @@
           <top-logs></top-logs>
         </div>
       </el-tooltip> -->
-        <el-tooltip v-if="showLock" effect="dark" :content="$t('navbar.lock')" placement="bottom">
+
+        <!--         <el-tooltip v-if="showLock" effect="dark" :content="$t('navbar.lock')" placement="bottom">
             <div class="top-bar__item">
                 <top-lock></top-lock>
             </div>
-        </el-tooltip>
-        <el-tooltip v-if="showTheme" effect="dark" :content="$t('navbar.theme')" placement="bottom">
+        </el-tooltip> -->
+        <!--       <el-tooltip v-if="showTheme" effect="dark" :content="$t('navbar.theme')" placement="bottom">
             <div class="top-bar__item top-bar__item--show">
                 <top-theme></top-theme>
             </div>
-        </el-tooltip>
+        </el-tooltip> -->
         <!-- <el-tooltip effect="dark"
                   :content="$t('navbar.language')"
                   placement="bottom">
@@ -322,6 +321,7 @@ export default {
     width: 22px;
     height: 22px;
     margin-right: 8px;
+    margin-top: -10px;
 }
 
 .el-notification {
@@ -351,6 +351,12 @@ export default {
 
 .el-notification__title {
     color: #ffffff;
+}
+
+.icon-jiashicang {
+    color: #fff;
+    margin-right: 8px;
+    font-size: 18px !important;
 }
 
 .el-notification__icon {

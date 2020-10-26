@@ -130,7 +130,7 @@ export default {
                         timea.push(item.time)
                     })
                     this.timea = timea;
-                    this.water=water
+                    this.water = water
                     this.temperature = temperature
                     this.co2 = co2
                     this.humidity = humidity

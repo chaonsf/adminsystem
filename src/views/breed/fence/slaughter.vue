@@ -129,24 +129,25 @@ export default {
                         cascaderItem: ["sukkId"],
                         dicUrl: "/api/mkx-farm/farm/getFarms"
                     },
-                    {
-                        label: "棚舍",
-                        prop: "srcSukkId",
-                        type: "select",
-                        addDisplay: false,
-                        disabled: true,
-                        props: {
-                            label: "name",
-                            value: "code"
-                        },
-                        dicFlag: false,
-                        dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}"
-                    },
+                    // {
+                    //     label: "棚舍",
+                    //     prop: "srcSukkId",
+                    //     type: "select",
+                    //     addDisplay: false,
+                    //     disabled: true,
+                    //     props: {
+                    //         label: "name",
+                    //         value: "code"
+                    //     },
+                    //     dicFlag: false,
+                    //     dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}"
+                    // },
                     {
                         label: "品种",
                         prop: "varietyId",
                         addDisplay: false,
                         disabled: true,
+                        type: "select",
                         dicUrl: "/api/breed/variety/getVarieties",
                         props: {
                             label: "name",

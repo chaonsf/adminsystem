@@ -91,7 +91,9 @@ export default {
                   ...querya,
                   startTime:value[0],
                   endTime:value[1],
-                   status:this.status
+                   status:this.status,
+                   current:this.page.currentPage,
+                    size:this.page.pageSize,
               }
              }
 

@@ -36,7 +36,7 @@
             <template slot-scope="{ row }" slot="nameLabel" style="float:left;">
                 <vue-qr
                     style="margin-left:80px;"
-                    :text="'https://ynyiot.com/management/trace?Barcode=' + row.chipNo"
+                    :text="'https://ynyiot.com/#/trace/' + row.chipNo"
                     :margin="0"
                     colorLight="#fff"
                 ></vue-qr>
@@ -110,25 +110,25 @@ export default {
                         },
                         dicUrl: "/api/mkx-farm/farm/getFarms"
                     },
-                    {
-                        label: "棚舍q",
-                        prop: "sukkId",
-                        disabled: true,
-                        type: "select",
-                        dicFlag: false,
-                        props: {
-                            label: "name",
-                            value: "code"
-                        },
-                        dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
-                        rules: [
-                            {
-                                required: true,
-                                message: "请选择棚舍",
-                                trigger: "blur"
-                            }
-                        ]
-                    },
+                    // {
+                    //     label: "棚舍q",
+                    //     prop: "sukkId",
+                    //     disabled: true,
+                    //     type: "select",
+                    //     dicFlag: false,
+                    //     props: {
+                    //         label: "name",
+                    //         value: "code"
+                    //     },
+                    //     dicUrl: "/api/mkx-sukkah/sukkah/getSukkahs/{{key}}",
+                    //     rules: [
+                    //         {
+                    //             required: true,
+                    //             message: "请选择棚舍",
+                    //             trigger: "blur"
+                    //         }
+                    //     ]
+                    // },
                     {
                         label: "芯片号",
                         prop: "chipNo",

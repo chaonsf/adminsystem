@@ -53,7 +53,7 @@ export default {
                     if (res.data.code == 200) {
                         this.$message.success("查询成功");
                         var iframe = document.getElementById("iframe");
-                        iframe.innerHTML = `<iframe src="/management/trace/index.html?Barcode=${this.barcode}" frameborder="0" width="100%" height=1080></iframe>`;
+                        iframe.innerHTML = `<iframe src="https://ynyiot.com/#/trace/${this.barcode}" frameborder="0" width="100%" height=1080></iframe>`;
                     } else {
                         this.$message.error(
                             "暂无该畜禽信息,请确认溯源号后重试"
